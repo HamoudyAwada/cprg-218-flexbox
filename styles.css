@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    background-color: #dccfba;
+    margin-bottom: 1rem;
+}
+
+header img{
+    height: 10rem;
+    width: 10rem;
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+}
+
+main section{
+    flex: 1;
+    border: 2px solid black;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+li span{
+    font-weight: bold;
+}
+
+
